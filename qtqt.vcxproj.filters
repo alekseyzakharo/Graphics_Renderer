@@ -21,10 +21,6 @@
       <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
       <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
     </Filter>
-    <Filter Include="Source Files">
-      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
-      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
-    </Filter>
     <Filter Include="Generated Files\Debug">
       <UniqueIdentifier>{86bb01d0-47aa-47b9-92af-f40753955047}</UniqueIdentifier>
       <Extensions>cpp;moc</Extensions>
@@ -35,20 +31,12 @@
       <Extensions>cpp;moc</Extensions>
       <SourceControlFiles>False</SourceControlFiles>
     </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="client.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="main.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="renderarea361.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="window361.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="Debug\moc_renderarea361.cpp">
       <Filter>Generated Files\Debug</Filter>
     </ClCompile>
@@ -61,39 +49,51 @@
     <ClCompile Include="Release\moc_window361.cpp">
       <Filter>Generated Files\Release</Filter>
     </ClCompile>
-    <ClCompile Include="draw.cpp">
+    <ClCompile Include="SourceFiles\client.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="mathlib.cpp">
+    <ClCompile Include="SourceFiles\draw.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="renderer.cpp">
+    <ClCompile Include="SourceFiles\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceFiles\mathlib.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceFiles\renderarea361.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceFiles\renderer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceFiles\window361.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="client.h">
+    <ClInclude Include="SourceFiles\client.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="drawable.h">
+    <ClInclude Include="SourceFiles\draw.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="pageturner.h">
+    <ClInclude Include="SourceFiles\drawable.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <CustomBuild Include="renderarea361.h">
-      <Filter>Header Files</Filter>
-    </CustomBuild>
-    <CustomBuild Include="window361.h">
-      <Filter>Header Files</Filter>
-    </CustomBuild>
-    <ClInclude Include="draw.h">
+    <ClInclude Include="SourceFiles\mathlib.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="mathlib.h">
+    <ClInclude Include="SourceFiles\pageturner.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="renderer.h">
+    <ClInclude Include="SourceFiles\renderarea361.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceFiles\renderer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceFiles\window361.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
