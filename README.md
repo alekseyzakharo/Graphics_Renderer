@@ -2,41 +2,36 @@
 
 **Images Produced by this Renderer from the SIMP Files**
 
-**A:**
-![alt text](/Output_Image_Files/pageA.PNG)
+![**A:**](/Output_Image_Files/pageA.PNG)
 
-**B:**
-![alt text](/Output_Image_Files/pageB.PNG)
+![**B:**](/Output_Image_Files/pageB.PNG)
 
-**C:**
-![alt text](/Output_Image_Files/pageC.PNG)
+![**C:**](/Output_Image_Files/pageC.PNG)
 
-**D:**
-![alt text](/Output_Image_Files/pageD.PNG)
+![**D:**](/Output_Image_Files/pageD.PNG)
 
-**E:**
-![alt text](/Output_Image_Files/pageE.PNG)
+![**E:**](/Output_Image_Files/pageE.PNG)
 
-**F:**
-![alt text](/Output_Image_Files/pageF.PNG)
+![**F:**](/Output_Image_Files/pageF.PNG)
 
-**G:**
-![alt text](/Output_Image_Files/pageG.PNG)
+![**G:**](/Output_Image_Files/pageG.PNG)
 
-**H:**
-![alt text](/Output_Image_Files/pageH.PNG)
+![**H:**](/Output_Image_Files/pageH.PNG)
 
 **Lighting images Produced by this Renderer**
 
 **Flat Lighting:**
-![alt text](/Lighting_Test_Files/FlatSphere.PNG)
-![alt text](/Lighting_Test_Files/FlatTeaCup.PNG)
+
+![**Flat Spehere**](/Lighting_Test_Files/FlatSphere.png)
+![**Flat Tea Cup**](/Lighting_Test_Files/FlatTeaCup.png)
 
 **Gouraud Lighting:**
-![alt text](/Lighting_Test_Files/GouraudSphere.PNG)
-![alt text](/Lighting_Test_Files/GouraudTeaCup.PNG)
 
-**Phong Lighting:**
-![alt text](/Lighting_Test_Files/PhongSphere.PNG)
-![alt text](/Lighting_Test_Files/PhongTeaPot.PNG)
+![**Gouraud Spehere**](/Lighting_Test_Files/GouraudSphere.png)
+![**Gouraud Tea Cup**](/Lighting_Test_Files/GouraudTeaCup.png)
+
+**Phong Lighting: (interpolation of normal does not work corretly)** 
+
+![**Phong Spehere**](/Lighting_Test_Files/PhongSphere.png)
+![**Phong Tea Cup**](/Lighting_Test_Files/PhongTeaPot.png)
 
