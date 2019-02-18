@@ -9,7 +9,7 @@
 
 class Window361 : public QWidget
 {
-    Q_OBJECT
+	Q_OBJECT
 
 public:
     Window361();

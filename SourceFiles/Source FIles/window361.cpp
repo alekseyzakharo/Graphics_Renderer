@@ -1,6 +1,6 @@
 #include <iostream>
 #include <QGridLayout>
-#include "window361.h"
+#include "SourceFiles\Header Files\window361.h"
 
 Window361::Window361()
 {

@@ -149,23 +149,23 @@
     <ClCompile Include="Release\moc_window361.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="SourceFiles\client.cpp" />
-    <ClCompile Include="SourceFiles\draw.cpp" />
-    <ClCompile Include="SourceFiles\main.cpp" />
-    <ClCompile Include="SourceFiles\mathlib.cpp" />
-    <ClCompile Include="SourceFiles\renderarea361.cpp" />
-    <ClCompile Include="SourceFiles\renderer.cpp" />
-    <ClCompile Include="SourceFiles\window361.cpp" />
+    <ClCompile Include="SourceFiles\Source FIles\client.cpp" />
+    <ClCompile Include="SourceFiles\Source FIles\draw.cpp" />
+    <ClCompile Include="SourceFiles\Source FIles\main.cpp" />
+    <ClCompile Include="SourceFiles\Source FIles\mathlib.cpp" />
+    <ClCompile Include="SourceFiles\Source FIles\renderarea361.cpp" />
+    <ClCompile Include="SourceFiles\Source FIles\renderer.cpp" />
+    <ClCompile Include="SourceFiles\Source FIles\window361.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="SourceFiles\client.h" />
-    <ClInclude Include="SourceFiles\draw.h" />
-    <ClInclude Include="SourceFiles\drawable.h" />
-    <ClInclude Include="SourceFiles\mathlib.h" />
-    <ClInclude Include="SourceFiles\pageturner.h" />
-    <ClInclude Include="SourceFiles\renderarea361.h" />
-    <ClInclude Include="SourceFiles\renderer.h" />
-    <ClInclude Include="SourceFiles\window361.h" />
+    <ClInclude Include="SourceFiles\Header Files\client.h" />
+    <ClInclude Include="SourceFiles\Header Files\draw.h" />
+    <ClInclude Include="SourceFiles\Header Files\drawable.h" />
+    <ClInclude Include="SourceFiles\Header Files\mathlib.h" />
+    <ClInclude Include="SourceFiles\Header Files\pageturner.h" />
+    <ClInclude Include="SourceFiles\Header Files\renderarea361.h" />
+    <ClInclude Include="SourceFiles\Header Files\renderer.h" />
+    <ClInclude Include="SourceFiles\Header Files\window361.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets" />

@@ -1,10 +1,10 @@
-#include "renderarea361.h"
+#include "SourceFiles\Header Files\renderarea361.h"
 #include <QImage>
 #include <QWidget>
 #include <QPainter>
 #include <QPaintEvent>
 #include <QSizePolicy>
-#include "drawable.h"
+#include "SourceFiles\Header Files\drawable.h"
 
 //using namespace std;
 

@@ -1,5 +1,5 @@
-#include "window361.h"
-#include "client.h"
+#include "SourceFiles\Header Files\window361.h"
+#include "SourceFiles\Header Files\client.h"
 #include <QApplication>
 
 
