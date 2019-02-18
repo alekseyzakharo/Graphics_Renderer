@@ -1,0 +1,35 @@
+{
+	ambient 1.0 1.0 1.0
+	surface 0.4 0.4 1 0.5 10
+	depth 20 150.0 0.0 0.0 0.0
+	translate 0 0 -60
+	camera -2.0 -2.0 2.0 2.0 1.0 200.0
+}
+{
+	translate 5.0 0.0 -30.0
+	light 1.0 1.0 1.0 1.0 0.0
+}
+{
+	translate 30.0 0.0 -30.0
+	light 1.0 1.0 1.0 1.0 0.0
+}
+{
+	translate 0.0 -20.0 -50.0
+	light 1.0 1.0 1.0 1.0 0.0
+}
+{
+	{
+		translate -40 20.0 0.0
+		obj sphereVec2
+	}
+	{
+		gouraud
+		translate 0.0 -20.0 0.0
+		obj sphereVec2
+	}
+	{
+		flat
+		translate 40 20.0 0.0
+		obj sphereVec2
+	}
+}	

@@ -1,0 +1,70 @@
+{
+	{
+	    translate -40 -20 00
+	    rotate X 20
+	    rotate Y 35
+	 
+	    file "page4assembly"
+	
+	}
+	{
+	    translate -20 -10 25
+	    rotate X 20
+	    rotate Y 35
+	 
+	    file "page4assembly"
+	
+	}
+	{
+	    translate 0 0 50
+	    rotate X 20
+	    rotate Y 35
+	 
+	    file "page4assembly"
+	
+	}
+	{
+		translate 20 10 100
+		rotate X 20
+		rotate Y 35
+		
+		file "page4assembly"
+	}
+	{
+		translate 40 20 150
+		rotate X 20
+		rotate Y 35
+		
+		file "page4assembly"
+	}
+	{
+		translate 60 30 200
+		rotate X 20
+		rotate Y 35
+		
+		file "page4assembly"
+	}
+}
+{
+	{
+		translate -85 -40 20
+		rotate X 25
+		rotate Y 45
+		scale 30 30 30
+		file "cube"
+	}
+	{
+		translate -30 -80 10
+		rotate X 25
+		rotate Y 45
+		scale 30 30 30
+		file "cube"
+	}
+	{
+		translate 30 -110 10
+		rotate X 25
+		rotate Y 45
+		scale 30 30 30
+		file "cube"
+	}
+}

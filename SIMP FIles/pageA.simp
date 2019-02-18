@@ -1,0 +1,27 @@
+{
+	ambient 1, 1, 1
+	{
+		translate 0 5 -10
+		rotate Y 20
+		camera -1 -1 1 1 0.005 200
+	}
+	
+	wire
+	{
+	    translate 40 0 0
+	    file "cubeline"
+	    {
+	        translate 0 30 0
+	        file "cubeline"
+	    }
+	    {
+	        translate 0 80 0
+	        file "cubeline"
+	    }
+	}
+	{
+	    translate -20 0 0
+	    scale 1 2 1
+	    file "cubeline"
+	}
+}

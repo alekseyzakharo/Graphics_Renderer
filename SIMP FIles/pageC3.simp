@@ -1,0 +1,67 @@
+{
+	ambient 1, 1, 1
+	{
+#		translate 0 5 -10
+#		rotate Y 20
+		camera  -2 -2 2 2 0.1 200
+		depth 0 200 (0 0 0)
+	}
+	
+#	wire
+	{
+	    translate 25 -20 40
+	    scale 10 10 40
+	    file "cube"
+	}
+	{
+		translate 0 15 40
+		{
+	   		translate 30 0 0
+	    	scale 10 10 60
+	    	file "cube"
+		}
+		{
+	    	translate 40 0 0
+	    	scale 10 10 60
+	 		surface 0.5 0.5 1.0
+	    	file "cube"
+		}
+		{
+	    	translate 50 0 0
+	    	scale 10 10 60
+	 		surface 1.0 0.5 0.5
+	    	file "cube"
+		}
+	}
+	
+	{
+	    translate 0 44 40
+	    scale 10 10 40
+	 	surface 1.0 0.5 0.5
+	    file "cube"
+	}
+	{
+	    translate -54 0 40
+	    scale 10 10 40
+	 	surface 1.0 0.5 0.5
+	    file "cube"
+	}
+	{
+	    translate 0 -54 40
+	    scale 10 10 40
+	 	surface 1.0 0.5 0.5
+	    file "cube"
+	}
+	{
+	 	surface 0.5 1.0 0.5
+		polygon (0.02 0 -1) (0 80 290) (80 -40 201) 
+	}
+	{
+	 	surface 0.5 0.5 1.0
+		polygon (-0.04 -0.04 0.09) (80 -40 201) (0 80 290)
+	}
+		{
+	 	surface 0.5 1.0 1.0
+		polygon (-100 20 0.000001) (80 -40 201) (0 80 290)
+	}
+}

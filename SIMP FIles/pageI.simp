@@ -1,0 +1,20 @@
+{
+	ambient 1 1 1
+	{
+#		translate 0 25 42
+#		rotate Y -55
+#		rotate X -20
+		translate 0 4 0
+		camera  -1 -1 1 1 0.1 200
+#		depth 0 200 (0 0 0)
+	}
+	
+#	wire
+	{
+		translate 0 0 20
+		scale 20 180 20
+		rotate X -90
+		translate -0.5 -0.5 0
+		file "color_z0_face"
+	}
+}

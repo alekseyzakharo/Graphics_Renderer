@@ -1,0 +1,40 @@
+# z=0 face
+{
+	file "z0_face"
+}
+
+# z=1 face
+{
+	translate 1, 0, 1
+	rotate Y 180
+	file "z0_face"
+}
+
+# y=0 face
+{
+	translate 1, 0, 0
+	rotate Y 180
+	rotate X 90
+	file "z0_face"
+}
+
+# y=1 face
+{
+	translate 0, 1, 0
+	rotate X -90
+	file "z0_face"
+}
+
+# x=0 face
+{
+	translate 0, 0, 1
+	rotate Y -90
+	file "z0_face"
+}
+
+# x=1 face
+{
+	translate 1, 0, 0
+	rotate Y 90
+	file "z0_face"
+}

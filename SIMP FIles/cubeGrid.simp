@@ -1,0 +1,41 @@
+
+{
+   	translate 0 0 0
+   	file "cubeline"
+}
+{
+	translate 20 0 0
+	file "cubeline"
+}
+{
+	translate 40 0 0
+	file "cubeline"
+}
+{
+	translate 60 0 0
+	file "cubeline"
+}
+{
+	translate 80 0 0
+	file "cubeline"
+}
+{
+	translate 100 0 0
+	file "cubeline"
+}
+{
+	translate 120 0 0
+	file "cubeline"
+}
+{
+	translate 140 0 0
+	file "cubeline"
+}
+{
+	translate 160 0 0
+	file "cubeline"
+}
+{
+	translate 180 0 0
+	file "cubeline"
+}

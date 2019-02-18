@@ -1,0 +1,15 @@
+{
+    scale 20 20 20
+ 
+    file "cube2"
+    {
+    	translate 0 -1 0
+    	file "cube2"
+    }
+    {
+		translate 0 1 1
+		rotate X 90
+		file "triPrism"
+    }
+	
+}

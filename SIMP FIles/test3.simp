@@ -1,0 +1,32 @@
+{
+	wire
+	rotate X 15
+	rotate Y 30
+	translate 0 -40 0
+
+	file "cubeline"
+}
+{
+	filled
+	rotate X 15
+	rotate Y 30
+	translate 20 -40 0
+
+	file "cubeline"
+}
+{
+	wire
+	rotate X 15
+	rotate Y 30
+	translate 40 -40 0
+
+	file "cubeline"
+}
+{
+	filled
+	rotate X 15
+	rotate Y 30
+	translate 60 -40 0
+
+	file "cubeline"
+}

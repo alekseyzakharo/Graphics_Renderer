@@ -1,0 +1,17 @@
+{
+	ambient 1.0 1.0 1.0
+	surface 0.6 0.6 0.6 0.3 10
+	translate 50 0 -100
+	rotate Y 30
+	camera -2.0 -2.0 2.0 2.0 1.0 100.0
+}
+{
+	translate 40.0 30.0 -70.0
+	light 1.0 1.0 1.0 1.0 0.0
+}
+{
+	{
+		flat
+		file tea
+	}
+}	

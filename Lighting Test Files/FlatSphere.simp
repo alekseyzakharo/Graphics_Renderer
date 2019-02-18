@@ -1,0 +1,17 @@
+{
+	ambient 1.0 1.0 1.0
+	surface 0.4 0.4 1 0.5 3
+	depth 5.0 40.0 0.0 0.0 0.0
+	translate 0 0 -40
+	camera -3.0 -3.0 3.0 3.0 1.0 20.0
+}
+{
+	translate 5.0 5.0 -30.0
+	light 1.0 1.0 1.0 1.0 0.0
+}
+{
+	flat
+	{
+		file sphereVec2
+	}
+}	

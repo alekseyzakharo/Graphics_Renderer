@@ -1,0 +1,7 @@
+rotate X 15
+rotate Y 30
+scale 5 5 1
+translate 4 -13 0
+scale 10 10 200
+
+file "cube"

@@ -1,0 +1,16 @@
+{
+	ambient 1 0.75 0.75
+	{
+		translate 0 25 42
+		rotate Y -55
+		rotate X -20
+		camera  -1 -1 0 0 0.1 200
+		depth 0 150 (0 0 0)
+	}
+	
+#	wire
+	{
+		translate 0 0 20
+		file "stripeGrid"
+	}
+}
